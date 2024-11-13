@@ -8,7 +8,6 @@ jobs:
     uses: catalyst/catalyst-moodle-workflows/.github/workflows/ci.yml@fix-moodle-branch-handling
     with:
       internal_workflow_branch: fix-moodle-branch-handling
-      concurrent_skipping: never
       disable_phpunit: true
       moodle_branches: MOODLE_401_STABLE
       extra_plugin_runners:
@@ -18,7 +17,6 @@ jobs:
     uses: catalyst/catalyst-moodle-workflows/.github/workflows/ci.yml@fix-moodle-branch-handling
     with:
       internal_workflow_branch: fix-moodle-branch-handling
-      concurrent_skipping: never
       disable_phpunit: true
       moodle_branches: MOODLE_402_STABLE
       extra_plugin_runners:
@@ -28,7 +26,6 @@ jobs:
     uses: catalyst/catalyst-moodle-workflows/.github/workflows/ci.yml@fix-moodle-branch-handling
     with:
       internal_workflow_branch: fix-moodle-branch-handling
-      concurrent_skipping: never
       disable_phpunit: true
       moodle_branches: MOODLE_403_STABLE
       extra_plugin_runners:
@@ -38,7 +35,6 @@ jobs:
     uses: catalyst/catalyst-moodle-workflows/.github/workflows/ci.yml@fix-moodle-branch-handling
     with:
       internal_workflow_branch: fix-moodle-branch-handling
-      concurrent_skipping: never
       disable_phpunit: true
       moodle_branches: MOODLE_404_STABLE
       extra_plugin_runners:
@@ -48,7 +44,6 @@ jobs:
     uses: catalyst/catalyst-moodle-workflows/.github/workflows/ci.yml@fix-moodle-branch-handling
     with:
       internal_workflow_branch: fix-moodle-branch-handling
-      concurrent_skipping: never
       disable_phpunit: true
       moodle_branches: MOODLE_405_STABLE
       extra_plugin_runners:
