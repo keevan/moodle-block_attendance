@@ -1,6 +1,10 @@
 # .github/workflows/ci.yml
 name: ci
 
+# Note: The only thinghs you need to change for the "real" ci.yml file:
+# - remove "internal_workflow_branch", you only need that for testing workflows on a different branch
+# - change "internal_workflow_branch" in the "use" field back to "main"
+
 on: [push, pull_request]
 
 jobs:
